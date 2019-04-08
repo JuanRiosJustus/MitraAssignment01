@@ -1,0 +1,37 @@
+[2/12/19, 5:03 PM]|JDBCBroker|JDBCBroker|Error|NOTAG|null<Could not load driver class[com.mysql.jdbc.Driver]>
+[2/12/19, 5:35 PM]|JDBCBroker|JDBCBroker|Error|NOTAG|null<Could not load driver class[com.mysql.jdbc.Driver]>
+[2/12/19, 5:42 PM]|JDBCBroker|JDBCBroker|Error|NOTAG|null<Could not load driver class[com.mysql.jdbc.Driver]>
+[2/19/19, 6:16 PM]|AccountHolder|getSelectQueryResult|Error|NOTAG|null<SQL Exception: 1146: Table 'spr19_csc429_zmaxw1.AccountHolder' doesn't exist>
+[2/21/19, 4:02 PM]|Patron|getSelectQueryResult|Error|NOTAG|null<SQL Exception: 1054: Unknown column 'bookId' in 'where clause'>
+[2/21/19, 4:05 PM]|Patron|getSelectQueryResult|Error|NOTAG|null<SQL Exception: 1054: Unknown column 'bookId' in 'where clause'>
+[2/21/19, 4:05 PM]|Patron|getSelectQueryResult|Error|NOTAG|null<SQL Exception: 1054: Unknown column 'bookId' in 'where clause'>
+[2/21/19, 4:06 PM]|Patron|getSelectQueryResult|Error|NOTAG|null<SQL Exception: 1054: Unknown column 'bookId' in 'where clause'>
+[2/21/19, 5:42 PM]|Book|insertAutoIncrementalPersistentState|Error|NOTAG|null<SQL Exception: 1062: Duplicate entry '1111' for key 'PRIMARY'>
+[2/21/19, 5:42 PM]|Patron|insertAutoIncrementalPersistentState|Error|NOTAG|null<SQL Exception: 0: Data truncation: Data too long for column 'zip' at row 1>
+[2/21/19, 5:42 PM]|Patron|insertAutoIncrementalPersistentState|Error|NOTAG|null<SQL Exception: 0: Data truncation: Data too long for column 'zip' at row 1>
+[2/21/19, 5:53 PM]|Book|insertAutoIncrementalPersistentState|Error|NOTAG|null<SQL Exception: 1062: Duplicate entry '1111' for key 'PRIMARY'>
+[2/21/19, 6:16 PM]|Book|insertAutoIncrementalPersistentState|Error|NOTAG|null<SQL Exception: 1062: Duplicate entry '1' for key 'PRIMARY'>
+[2/21/19, 6:16 PM]|Book|insertAutoIncrementalPersistentState|Error|NOTAG|null<SQL Exception: 1062: Duplicate entry '1' for key 'PRIMARY'>
+[2/25/19, 5:35 PM]|Patron|updatePersistentState|Error|NOTAG|null<SQL Exception: 1064: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' dateOfBirth = '06/10/1997' , email = 'patronName@example.com' , address = 'patr' at line 1>
+[2/25/19, 5:37 PM]|Patron|insertAutoIncrementalPersistentState|Error|NOTAG|null<SQL Exception: 0: Data truncation: Data too long for column 'zip' at row 1>
+[2/25/19, 6:05 PM]|Patron|insertAutoIncrementalPersistentState|Error|NOTAG|null<SQL Exception: 1062: Duplicate entry '12' for key 'PRIMARY'>
+[3/5/19, 8:09 PM]|Book|updatePersistentState|Error|NOTAG|null<SQL Exception: 1064: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' title = 'Nooooo' , pubYear = '1995' WHERE bookId =' at line 1>
+[3/5/19, 8:10 PM]|Book|updatePersistentState|Error|NOTAG|null<SQL Exception: 1064: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' title = 'Eggs and Ham' , pubYear = '1997' WHERE bookId =' at line 1>
+[3/7/19, 6:01 PM]|Patron|insertAutoIncrementalPersistentState|Error|NOTAG|null<SQL Exception: 0: Data truncation: Data too long for column 'status' at row 1>
+[3/7/19, 6:10 PM]|Patron|insertAutoIncrementalPersistentState|Error|NOTAG|null<SQL Exception: 0: Data truncation: Data too long for column 'status' at row 1>
+[3/7/19, 6:10 PM]|Patron|insertAutoIncrementalPersistentState|Error|NOTAG|null<SQL Exception: 0: Data truncation: Data too long for column 'status' at row 1>
+[3/7/19, 6:10 PM]|Patron|insertAutoIncrementalPersistentState|Error|NOTAG|null<SQL Exception: 1364: Field 'status' doesn't have a default value>
+[3/7/19, 6:15 PM]|Patron|insertAutoIncrementalPersistentState|Error|NOTAG|null<SQL Exception: 1364: Field 'status' doesn't have a default value>
+[3/11/19, 1:06 PM]|Patron|insertAutoIncrementalPersistentState|Error|NOTAG|null<SQL Exception: 1364: Field 'status' doesn't have a default value>
+[3/11/19, 1:09 PM]|Patron|insertAutoIncrementalPersistentState|Error|NOTAG|null<SQL Exception: 1364: Field 'status' doesn't have a default value>
+[3/11/19, 1:09 PM]|Patron|insertAutoIncrementalPersistentState|Error|NOTAG|null<SQL Exception: 1364: Field 'status' doesn't have a default value>
+[3/11/19, 1:16 PM]|Patron|insertAutoIncrementalPersistentState|Error|NOTAG|null<SQL Exception: 1364: Field 'status' doesn't have a default value>
+[3/11/19, 1:16 PM]|Patron|insertAutoIncrementalPersistentState|Error|NOTAG|null<SQL Exception: 1364: Field 'status' doesn't have a default value>
+[3/11/19, 1:16 PM]|Patron|insertAutoIncrementalPersistentState|Error|NOTAG|null<SQL Exception: 1364: Field 'status' doesn't have a default value>
+[3/11/19, 1:17 PM]|Patron|insertAutoIncrementalPersistentState|Error|NOTAG|null<SQL Exception: 0: Data truncation: Data too long for column 'stateCode' at row 1>
+[3/13/19, 3:36 PM]|Book|getSchemaInfo|Error|NOTAG|null<SQL Exception: 0: Communications link failure
+
+Last packet sent to the server was 7842745 ms ago.>
+[3/14/19, 5:54 PM]|Patron|insertAutoIncrementalPersistentState|Error|NOTAG|null<SQL Exception: 0: Data truncation: Data too long for column 'status' at row 1>
+[3/14/19, 5:55 PM]|Patron|insertAutoIncrementalPersistentState|Error|NOTAG|null<SQL Exception: 0: Data truncation: Data too long for column 'status' at row 1>
+[3/14/19, 5:58 PM]|Patron|insertAutoIncrementalPersistentState|Error|NOTAG|null<SQL Exception: 0: Data truncation: Data too long for column 'stateCode' at row 1>
